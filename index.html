@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/ac2f317ecb.js" crossorigin="anonymous"></script>
+
+    <!-- Swiper CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+
+    <link rel="icon" href="">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="scss/style.css">
+    <title>Tech Harmony Inc.</title>
+</head>
+
+<body>
+
+    <!-- header -->
+    <header id="header">
+        <div class="logo">
+            <a href="index.html">
+                <img class="site-logo" src="img/logo.png" alt="Tech Harmony Inc.のロゴ"></a>
+        </div>
+
+        <nav class="nav_pc">
+            <ul>
+                <li><a href="#service">サービス</a></li>
+                <li><a href="#news">ニュース</a></li>
+                <li><a href="#overview">会社概要</a></li>
+            </ul>
+
+            <a class="contact" href="#contact">
+                <i class="fa-regular fa-envelope"></i>お問い合わせ
+            </a>
+        </nav>
+    </header>
+
+    <!-- ハンバーガーメニュー -->
+    <div class="nav_sp">
+        <!-- 表示・非表示 -->
+        <input id="drawer_input" class="drawer_hidden" type="checkbox">
+        <!-- アイコン -->
+        <label for="drawer_input" class="drawer_open"><span></span></label>
+        <!-- メニュー -->
+        <nav class="nav_content">
+
+            <ul class="nav_list">
+                <li class="nav_item"><a href="#service">サービス</a></li>
+                <li class="nav_item"><a href="#news">ニュース</a></li>
+                <li class="nav_item"><a href="#overview">会社概要</a></li>
+            </ul>
+
+            <a class="contact" href="#contact">
+                <i class="fa-regular fa-envelope"></i>お問い合わせ
+            </a>
+        </nav>
+    </div>
+
+    <!-- mv -->
+    <section id="mainvisual">
+        <div class="mv__content">
+            <div class="mv__catchcopy__box">
+                <p class="mv__catchcopy">
+                    未来の<br>
+                    ビジネス<br>
+                    コミュニケーションを<br>
+                    <span class="blue">創造</span>する
+                </p>
+
+                <p class="mv__catchcopy__desc">
+                    私たちはビジネスにおいて最も大切なのは、<br>
+                    つながりだと考えています。<br>
+                    そのつながりを強化するため、<br>
+                    あらゆる場面で活用されている<br>
+                    「メッセージングツール」に注目しました。<br>
+                    「メッセージング」を<br>
+                    「チーム全体のためのコミュニケーションツール」<br>
+                    として再構築し、<br class="br-sp">
+                    未来のビジネスを支えるインフラを提供します！
+                </p>
+            </div>
+            <img src="img/mv03.png" id="main_img" alt="mainvisual">
+        </div>
+    </section>
+
+    <!-- gallery -->
+    <section id="gallery" class="gallery">
+        <div class="swiper gallery__swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/gallery01.jpg" alt="画像1">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/gallery02.jpg" alt="画像2">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/gallery03.jpg" alt="画像3">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/gallery04.jpg" alt="画像4">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/service01.jpg" alt="画像5">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/service03.jpg" alt="画像6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- service -->
+    <div class="section__wrapper">
+        <section id="service">
+            <div class="service__content__box">
+                <!-- LinkUp -->
+                <div class="service__content">
+                    <div class="service__half">
+                        <div class="service__title-box">
+                            <h2 class="service__title title02">Service
+                                <span class="service__sub-title sub-title">サービス</span>
+                            </h2>
+                        </div>
+                        <div class="service__logo-box">
+                            <img class="service__logo" src="img/logo-linkup.png" alt="LinkUpのロゴ">
+                        </div>
+                        <article class="service__text-box">
+                            <p class="service__text">
+                                「LinkUp」は、顧客対応や社内コミュニケーションをスムーズに行うための統合プラットフォームです。<br>
+                                最新のAI技術を駆使して、情報の検索・共有・顧客対応を一つのプラットフォームで効率化し、組織全体の生産性を向上させます。部門ごとに異なるツールを使用することによる「分断」を解消し、すべてのコミュニケーションが「統合」される世界を目指しています。
+                            </p>
+                        </article>
+                    </div>
+
+                    <div class="service__half">
+                        <div class="service__img-box">
+                            <img class="service__img" src="img/service01.jpg" alt="LinkUpのイメージ画像">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Media -->
+                <div class="service__content">
+                    <div class="service__half">
+                        <div class="service__title-box">
+                            <h3 class="service__title title02">Media
+                            </h3>
+                        </div>
+                        <article class="service__text-box">
+                            <p class="service__text">
+                                中小企業向けのITツール情報プラットフォーム「Knowledge Hub」を運営しています。<br>
+                                企業の業務効率化を支えるため、IT環境の構築に必要なノウハウを提供し、シンプルで使いやすいITツールをカテゴリーごとに紹介しています。
+                            </p>
+                        </article>
+                    </div>
+
+                    <div class="service__half">
+                        <div class="service__img-box">
+                            <img class="service__img" src="img/service02.jpg" alt="Mediaのイメージ画像">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Business Boost Service -->
+                <div class="service__content">
+                    <div class="service__half">
+                        <div class="service__title-box">
+                            <h4 class="service__title">Business Boost Service
+                            </h4>
+                        </div>
+                        <article class="service__text-box">
+                            <p class="service__text">
+                                マーケティング、セールス、カスタマーサポートの3つの分野で、プロフェッショナルサービスを提供しています。<br>
+                                IT業界で培った独自の知識と経験を活かし、クライアントのビジネスの加速を全力で支援いたします。
+                            </p>
+                        </article>
+                        <a class="btn01" href="#contact">お問い合わせはコチラ</a>
+                    </div>
+
+                    <div class="service__half">
+                        <div class="service__img-box">
+                            <img class="service__img" src="img/service03.jpg" alt="Business Boost Serviceのイメージ画像">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- news -->
+    <div class="section__wrapper">
+        <section id="news">
+            <div class="news__content__box">
+                <div class="news__title-box">
+                    <h2 class="news__title title02">News
+                        <span class="news__sub-title sub-title">ニュース</span>
+                    </h2>
+                </div>
+
+                <div class="news__content">
+                    <ul class="news__list__box">
+                        <li class="news__list">
+                            <a class="news__link" href="#">
+                                <img class="news__img" src="img/service01.jpg" alt="WEB SUMMIT 2023の展示ブースの写真">
+                                <div class="date-area">
+                                    <time datetime="2023-03-01">2023.03.01</time>
+                                    <p class="news__category">お知らせ</p>
+                                </div>
+                                <h5 class="news__article__title">「WEB SUMMIT 2023」に出展</h5>
+                            </a>
+                        </li>
+
+                        <li class="news__list">
+                            <a class="news__link" href="#">
+                                <img class="news__img" src="img/service01.jpg" alt="iOSアプリ「IT Software」の画面キャプチャ">
+                                <div class="date-area">
+                                    <time datetime="2023-02-01">2023.02.01</time>
+                                    <p class="news__category">プレスリリース</p>
+                                </div>
+                                <h5 class="news__article__title">iOSアプリ「IT Software」を発表</h5>
+                            </a>
+                        </li>
+
+                        <li class="news__list">
+                            <a class="news__link" href="#">
+                                <img class="news__img" src="img/service01.jpg" alt="TOKYO新聞「NEXT IT」の記事の写真">
+                                <div class="date-area">
+                                    <time datetime="2023-01-01">2023.01.01</time>
+                                    <p class="news__category">お知らせ</p>
+                                </div>
+                                <h5 class="news__article__title">TOKYO新聞「NEXT IT」に掲載</h5>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <a class="btn01" href="#">ニュース一覧</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- company -->
+    <div class="section__wrapper">
+        <section id="overview">
+            <div class="overview__content__box">
+                <div class="overview__title-box">
+                    <h2 class="overview__title title02">Company
+                        <span class="overview__sub-title sub-title">会社概要</span>
+                    </h2>
+                </div>
+
+                <div class="overview__company-profile">
+                    <table class="overview__company-profile__table table01">
+                        <tbody>
+                            <tr>
+                                <th>会社名</th>
+                                <td>Tech Harmony Inc.</td>
+                            </tr>
+                            <tr>
+                                <th>代表者</th>
+                                <td>代表取締役 佐藤 花子</td>
+                            </tr>
+                            <tr>
+                                <th>所在地</th>
+                                <td>東京都港区六本木3-4-5 テックハーモニービル6F</td>
+                            </tr>
+                            <tr>
+                                <th>資本金</th>
+                                <td>50,000,000円</td>
+                            </tr>
+                            <tr>
+                                <th>事業概要</th>
+                                <td>「LinkUp」の企画・開発・運営・販売</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+    <!-- contact -->
+    <div class="section__wrapper">
+        <section id="contact">
+            <div class="contact__content__box">
+                <div class="contact__title-box">
+                    <h2 class="contact__title title02">Contact
+                        <span class="contact__sub-title sub-title">お問い合わせ</span>
+                    </h2>
+                </div>
+
+                <form class="contact__form" action="#" method="post">
+                    <div class="form-group">
+                        <label for="company-name">会社名 <span class="required">*</span></label>
+                        <input type="text" id="company-name" name="company-name" required>
+                    </div>
+
+                    <div class="form-group name-group">
+                        <div class="name-group__box">
+                            <label>姓 <span class="required">*</span></label>
+                            <div class="name-field">
+                                <input type="text" required>
+                            </div>
+                        </div>
+                        <div class="name-group__box">
+                            <label>名 <span class="required">*</span></label>
+                            <div class="name-field">
+                                <input type="text" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">電話番号 <span class="required">*</span></label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Eメール <span class="required">*</span></label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="inquiry">お問い合わせ内容 <span class="required">*</span></label>
+                        <textarea id="inquiry" name="inquiry" rows="4" required></textarea>
+                    </div>
+
+                    <div class="form-group privacy-policy">
+                        <p>
+                            <a href="#privacy-policy" class="privacy-policy-link">プライバシーポリシー</a>
+                        </p>
+                        <div class="checkbox-group">
+                            <label>
+                                <input type="checkbox" required>
+                                プライバシーポリシーに同意<span class="required">*</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="contact__submit">送信</button>
+                </form>
+
+
+            </div>
+        </section>
+    </div>
+
+    <!-- footer -->
+    <footer id="footer">
+        <div class="footer-inner">
+            <div class="flex">
+                <div class="logo">
+                    <img src="img/logo-footer.png" alt="Tech Harmony Inc.">
+                </div>
+
+                <nav class="nav_pc">
+                    <ul>
+                        <li><a href="#service">サービス</a></li>
+                        <li><a href="#news">ニュース</a></li>
+                        <li><a href="#overview">会社概要</a></li>
+                        <li><a href="#contact">お問い合わせ</a></li>
+                    </ul>
+
+                </nav>
+            </div>
+
+            <p class="copyright">&copy; Tech Harmony Inc</p>
+        </div>
+    </footer>
+
+    <button id="scrollToTop" class="scroll-to-top">
+        <img src="img/page-top-blue.jpg" alt="Top" class="scroll-to-top__icon">
+    </button>
+
+    <!-- main.jsの読み込み -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
