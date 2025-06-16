@@ -730,6 +730,20 @@ Service
   }
 }
 
+.service__img {
+  height: 365px;
+  width: 520px;
+}
+
+@media screen and (max-width: 767px) {
+  .service__img {
+    height: 260px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+
 /*------------------------------------------------------------
 NEWS
 ------------------------------------------------------------*/
